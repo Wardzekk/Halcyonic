@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz:wght@200&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Yanone Kaffeesatz", sans-serif;
+  text-decoration: none;
+}
+
+/* Custom navbarre */
+header {
+  display: flex;
+  background: url(./img/assets/bg01.jpg);
+  color: #fff;
+  padding: 30px;
+  font-size: 20px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  width: 75%;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+li {
+  list-style: none;
+}
+
+/* Custom section1 */
+.container {
+  width: 65%;
+  margin: auto;
+}
+
+#section_1 {
+  display: flex;
+  background: url(./img/assets/bg02.jpg);
+  color: #fff;
+  padding: 35px;
+}
+
+.img1 {
+  max-width: 100%;
+  float: right;
+  outline: solid white 8px;
+}
+
+.texte1 {
+  width: 45%;
+  float: left;
+  font-size: 35px;
+}
+
+.btn1 {
+  background-color: #ed391d;
+  color: #fff;
+  height: 50px;
+  width: 25%;
+  border-radius: 10px;
+  border: none;
+  font-size: 20px;
+}
+
+/* Custom section 2 */
+#section_2 {
+  background: url(./img/assets/bg04.jpg);
+  color: #fff;
+}
+
+.img2 {
+}
